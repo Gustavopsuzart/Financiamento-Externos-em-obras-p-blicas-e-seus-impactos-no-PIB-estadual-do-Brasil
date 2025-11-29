@@ -48,7 +48,7 @@ Produto Interno Bruto, a preços correntes (R$ 1.000) (PIB)
 
 Componentes do Valor Adicionado Bruto (VAB) por setor.
 
-💻 Detalhes do Código (projeto_arquitetura_2_0.py)
+💻 Detalhes do Código
 O script realiza as seguintes etapas de ETL (Extração, Transformação, Carga) e Análise para SP e RJ.
 
 1. Tratamento e Agregação do PIB Estadual
@@ -144,6 +144,6 @@ for uf in ["SP","RJ"]:
     ax1.set_title(f"PIB x Financiamentos - {uf} (2010-2021)")
     # ... [configurações de grade e legenda] ...
     plt.show()
-Para fins de Comprovação da publicação do projeto abaixo ficará a carta de aceite do congresso onde o projeto foi publicado
+Para fins de Comprovação da publicação do projeto abaixo ficará a carta de aceite do congresso onde o projeto foi publicado:
 
 [Carta de Aceite.pdf](https://github.com/user-attachments/files/23830774/Carta.de.Aceite.pdf)
