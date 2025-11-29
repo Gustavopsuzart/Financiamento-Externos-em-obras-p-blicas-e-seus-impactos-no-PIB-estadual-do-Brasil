@@ -135,7 +135,7 @@ for uf in ["SP","RJ"]:
     # PIB (Eixo Y1, R$ bilhões)
     ax1.plot(p_pib.index, p_pib["PIB_valor"]/1e9, marker="o", label="PIB (R$ bi)")
     ax1.set_ylabel("PIB (R$ bilhões)")
-    
+
     # Financiamentos (Eixo Y2, R$ milhões)
     ax2 = ax1.twinx()
     ax2.plot(p_fin.index, valor_brl/1e6, marker="s", color="C1", label="Financiamentos (R$ mi)")
@@ -144,3 +144,6 @@ for uf in ["SP","RJ"]:
     ax1.set_title(f"PIB x Financiamentos - {uf} (2010-2021)")
     # ... [configurações de grade e legenda] ...
     plt.show()
+Para fins de Comprovação da publicação do projeto abaixo ficará a carta de aceite do congresso onde o projeto foi publicado
+
+[Carta de Aceite.pdf](https://github.com/user-attachments/files/23830774/Carta.de.Aceite.pdf)
