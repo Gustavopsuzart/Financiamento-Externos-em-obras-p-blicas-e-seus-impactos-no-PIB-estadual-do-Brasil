@@ -27,7 +27,7 @@ H6 (Não Proporcionalidade): A alocação de financiamentos não é proporcional
 
 
 🛠️ Metodologia e Conjunto de Dados
-O projeto utiliza a linguagem Python com a biblioteca Pandas para tratamento e agregação de dados, e Matplotlib/Seaborn para visualização.
+O projeto utiliza a linguagem Python e Excel para realizar a limpeza das bases de dados com a biblioteca Pandas para tratamento e agregação de dados, e Matplotlib/Seaborn para visualização.
 
 💾 Fontes de Dados
 Dados de Financiamento: Arquivo dados_2025-02-05.xlsx. Contém informações detalhadas sobre projetos de investimento, incluindo:
