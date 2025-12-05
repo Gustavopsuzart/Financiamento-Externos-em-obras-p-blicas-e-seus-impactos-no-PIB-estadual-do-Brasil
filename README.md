@@ -1,4 +1,4 @@
-# Financiamento-Externos-em-obras-p-blicas-e-seus-impactos-no-PIB-estadual-do-Brasil
+# Financiamento-Externos-em-obras-públicas-e-seus-impactos-no-PIB-estadual-do-Brasil
 
 📊 Análise de Financiamentos Externos e PIB Estadual (SP e RJ, 2010-2021)
 Este projeto tem como objetivo principal analisar a relação e o impacto dos financiamentos externos (como programas multilaterais e empréstimos internacionais) em obras públicas sobre o Produto Interno Bruto (PIB) dos estados de São Paulo (SP) e Rio de Janeiro (RJ) entre os anos de 2010 e 2021.
