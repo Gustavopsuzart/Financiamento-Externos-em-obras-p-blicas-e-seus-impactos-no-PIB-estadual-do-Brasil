@@ -208,9 +208,9 @@ Isso sugere que impactos imediatos no PIB podem ser discretos e defasados. É ne
 
 Linha do PIB tem tendência clara de crescimento de 2010–2021.
 
-Financiamentos mostram um pico isolado (2018), com anos de financiamento quase nulos.
+Financiamentos mostram picos isolados (2013, 2018), com anos de financiamento quase nulos entre eles.
 
-Isso sugere que impactos imediatos no PIB podem ser discretos e defasados. É necessário analisar lags (ex.: efeito de financiamento sobre o PIB 1–3 anos depois).
+Essa dinâmica de choques pontuais de investimento reforça a sugestão de que impactos imediatos no PIB podem ser discretos e defasados. É necessário analisar lags (ex.: efeito de financiamento sobre o PIB 1–3 anos depois) para capturar o efeito multiplicador completo.
 
 
 Para fins de Comprovação da publicação do projeto abaixo ficará a carta de aceite do congresso onde o projeto foi publicado:
