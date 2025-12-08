@@ -1,14 +1,14 @@
 # Financiamento-Externos-em-obras-públicas-e-seus-impactos-no-PIB-estadual-do-Brasil
 
-📊 Análise de Financiamentos Externos e PIB Estadual (SP e RJ, 2010-2021)
+**📊 Análise de Financiamentos Externos e PIB Estadual (SP e RJ, 2010-2021)**
 Este projeto tem como objetivo principal analisar a relação e o impacto dos financiamentos externos (como programas multilaterais e empréstimos internacionais) em obras públicas sobre o Produto Interno Bruto (PIB) dos estados de São Paulo (SP) e Rio de Janeiro (RJ) entre os anos de 2010 e 2021.
 
 
 A análise busca ir além de correlações simples, investigando a alocação setorial dos recursos, a influência de grandes projetos isolados (outliers) e a defasagem temporal dos impactos econômicos.
 
 
-🎯 Objetivos e Hipóteses
-O estudo avalia diversas hipóteses (H1-H6) para mapear a complexa relação entre o volume de financiamento e a dinâmica econômica estadual:
+**🎯 Objetivos e Hipóteses
+O estudo avalia diversas hipóteses (H1-H6) para mapear a complexa relação entre o volume de financiamento e a dinâmica econômica estadual:**
 
 
 H1 (PIB vs. Nº de Projetos): A correlação entre o número de projetos financiados e o PIB é positiva (mas geralmente fraca no agregado).
@@ -26,10 +26,10 @@ H5 (Concentração Setorial): Há concentração de recursos em setores estraté
 H6 (Não Proporcionalidade): A alocação de financiamentos não é proporcional ao tamanho do PIB do estado, sugerindo a influência de fatores políticos/institucionais.
 
 
-🛠️ Metodologia e Conjunto de Dados
+**🛠️ Metodologia e Conjunto de Dados**
 O projeto utiliza a linguagem Python e Excel para realizar a limpeza das bases de dados com a biblioteca Pandas para tratamento e agregação de dados, e Matplotlib/Seaborn para visualização.
 
-💾 Fontes de Dados
+**💾 Fontes de Dados**
 Dados de Financiamento: Arquivo dados_2025-02-05.xlsx. Contém informações detalhadas sobre projetos de investimento, incluindo:
 
 nmProjeto, nmSetor (Nome do Projeto, Setor)
@@ -48,7 +48,7 @@ Produto Interno Bruto, a preços correntes (R$ 1.000) (PIB)
 
 Componentes do Valor Adicionado Bruto (VAB) por setor.
 
-💻 Detalhes do Código
+**💻 Detalhes do Código**
 O script realiza as seguintes etapas de ETL (Extração, Transformação, Carga) e Análise para SP e RJ.
 
 1. Tratamento e Agregação do PIB Estadual
@@ -145,14 +145,14 @@ for uf in ["SP","RJ"]:
     # ... [configurações de grade e legenda] ...
     plt.show()
 
-📊 Resultados Obtidos (Gráficos)
+**📊 Resultados Obtidos (Gráficos)**
 
 A seguir estão as visualizações geradas pelo projeto.
 
 Substitua os caminhos abaixo pelos arquivos das imagens no seu repositório.
 Exemplo: img/grafico_rj1.png
 
-1️⃣ Nº de Projetos e Volume de Financiamentos — RJ (2010-2021)
+**1️⃣ Nº de Projetos e Volume de Financiamentos — RJ (2010-2021)**
 
 <img width="719" height="311" alt="image" src="https://github.com/user-attachments/assets/30ec12b4-15df-4231-abc1-b5775d7f6fe9" />
 
@@ -162,7 +162,7 @@ Observação: grande pico de volume em um ano (ex.: 2018) indica um ou poucos pr
 
 Implicação: correlação entre volume e PIB pode ser distorcida por esses grandes projetos; analisar com e sem outlier é recomendável.
 
-2️⃣ Nº de Projetos e Volume de Financiamentos — SP (2010-2021)
+**2️⃣ Nº de Projetos e Volume de Financiamentos — SP (2010-2021)**
 
 <img width="718" height="304" alt="image" src="https://github.com/user-attachments/assets/f265c6e2-14c6-433b-85e2-ec097b411af3" />
 
@@ -172,7 +172,7 @@ Pode indicar que SP recebe mais projetos em número, mas volume por projeto vari
 
 Teste: calcular média e mediana do valor por projeto por ano (mediana menos sensível a outliers).
 
-3️⃣ Evolução Setorial do VAB — SP
+**3️⃣ Evolução Setorial do VAB — SP**
 
 <img width="470" height="308" alt="image" src="https://github.com/user-attachments/assets/ecba635a-3195-4a53-99fa-b00a86b7b1cd" />
 
@@ -182,7 +182,7 @@ Interpretação: economia de SP é fortemente guiada por serviços (setor princi
 
 Relevância: se financiamentos se concentram em infraestrutura/energia e não em serviços, pode haver desalinhamento entre setores que geram PIB e onde os financiamentos vão.
 
-4️⃣ Evolução Setorial do VAB — RJ
+**4️⃣ Evolução Setorial do VAB — RJ**
 
 <img width="478" height="305" alt="image" src="https://github.com/user-attachments/assets/021ffb13-b552-4f6d-ae6c-cc7a2d33c7a6" />
 
@@ -192,7 +192,7 @@ Observa-se crescimento no componente VAB_Ind após 2016 e um grande salto em fin
 
 Novamente, um grande projeto pode distorcer a relação.
 
-5️⃣ PIB x Financiamentos — SP (2010-2021)
+**5️⃣ PIB x Financiamentos — SP (2010-2021)**
 
 <img width="568" height="313" alt="image" src="https://github.com/user-attachments/assets/bdde4027-d131-4331-bb79-cb655a9bf26e" />
 
@@ -202,7 +202,7 @@ Financiamentos mostram picos isolados (2013, 2018), com anos de financiamento qu
 
 Isso sugere que impactos imediatos no PIB podem ser discretos e defasados. É necessário analisar lags (ex.: efeito de financiamento sobre o PIB 1–3 anos depois).
 
-6️⃣ PIB x Financiamentos — RJ (2010-2021)
+**6️⃣ PIB x Financiamentos — RJ (2010-2021)**
 
 <img width="568" height="315" alt="image" src="https://github.com/user-attachments/assets/75bf7029-be97-4568-b1c4-31d20e949ae5" />
 
