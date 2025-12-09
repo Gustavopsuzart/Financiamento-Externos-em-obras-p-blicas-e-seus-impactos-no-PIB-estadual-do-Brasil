@@ -38,14 +38,14 @@ O projeto utiliza **Python** (Pandas, Matplotlib/Seaborn) e **Excel** para trata
 * **Agregação:** O volume total em Dólar (`VlDolar_num`) e o número de projetos são somados/contados por UF e Ano.
 * **Classificação Setorial:** Os setores são mapeados heuristicamente para grupos amplos (ex: `Industria_Infrastr`, `Servicos`) para a análise da H5.
 
-### 📊 Resultados Obtidos (Gráficos)
+## 📊 Resultados Obtidos (Gráficos)
 
 A seguir estão as visualizações geradas pelo projeto.
 
 Substitua os caminhos abaixo pelos arquivos das imagens no seu repositório.
 Exemplo: img/grafico_rj1.png
 
-## 1️⃣ Nº de Projetos e Volume de Financiamentos — RJ (2010-2021)
+### 1️⃣ Nº de Projetos e Volume de Financiamentos — RJ (2010-2021)
 
 <img width="719" height="311" alt="image" src="https://github.com/user-attachments/assets/30ec12b4-15df-4231-abc1-b5775d7f6fe9" />
 
@@ -55,7 +55,7 @@ Observação: grande pico de volume em um ano (ex.: 2018) indica um ou poucos pr
 
 Implicação: correlação entre volume e PIB pode ser distorcida por esses grandes projetos; analisar com e sem outlier é recomendável.
 
-## 2️⃣ Nº de Projetos e Volume de Financiamentos — SP (2010-2021)
+### 2️⃣ Nº de Projetos e Volume de Financiamentos — SP (2010-2021)
 
 <img width="718" height="304" alt="image" src="https://github.com/user-attachments/assets/f265c6e2-14c6-433b-85e2-ec097b411af3" />
 
@@ -65,7 +65,7 @@ Pode indicar que SP recebe mais projetos em número, mas volume por projeto vari
 
 Teste: calcular média e mediana do valor por projeto por ano (mediana menos sensível a outliers).
 
-## 3️⃣ Evolução Setorial do VAB — SP
+### 3️⃣ Evolução Setorial do VAB — SP
 
 <img width="470" height="308" alt="image" src="https://github.com/user-attachments/assets/ecba635a-3195-4a53-99fa-b00a86b7b1cd" />
 
@@ -75,7 +75,7 @@ Interpretação: economia de SP é fortemente guiada por serviços (setor princi
 
 Relevância: se financiamentos se concentram em infraestrutura/energia e não em serviços, pode haver desalinhamento entre setores que geram PIB e onde os financiamentos vão.
 
-## 4️⃣ Evolução Setorial do VAB — RJ
+### 4️⃣ Evolução Setorial do VAB — RJ
 
 <img width="478" height="305" alt="image" src="https://github.com/user-attachments/assets/021ffb13-b552-4f6d-ae6c-cc7a2d33c7a6" />
 
@@ -85,7 +85,7 @@ Observa-se crescimento no componente VAB_Ind após 2016 e um grande salto em fin
 
 Novamente, um grande projeto pode distorcer a relação.
 
-## 5️⃣ PIB x Financiamentos — SP (2010-2021)
+### 5️⃣ PIB x Financiamentos — SP (2010-2021)
 
 <img width="568" height="313" alt="image" src="https://github.com/user-attachments/assets/bdde4027-d131-4331-bb79-cb655a9bf26e" />
 
@@ -95,7 +95,7 @@ Financiamentos mostram picos isolados (2013, 2018), com anos de financiamento qu
 
 Isso sugere que impactos imediatos no PIB podem ser discretos e defasados. É necessário analisar lags (ex.: efeito de financiamento sobre o PIB 1–3 anos depois).
 
-## 6️⃣ PIB x Financiamentos — RJ (2010-2021)
+### 6️⃣ PIB x Financiamentos — RJ (2010-2021)
 
 <img width="568" height="315" alt="image" src="https://github.com/user-attachments/assets/75bf7029-be97-4568-b1c4-31d20e949ae5" />
 
